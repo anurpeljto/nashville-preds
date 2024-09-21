@@ -1,5 +1,4 @@
 import React from 'react'
-import PlayerImg from '../PlayerImg'
 import Image from 'next/image'
 
 const PlayersGallery = () => {
