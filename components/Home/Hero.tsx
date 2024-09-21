@@ -13,8 +13,8 @@ const Hero = () => {
             </div>
         </div>
 
-        <Image className='z-20 sm:block hidden' src='/player.png' alt='stand' height={600} width={600}/>
-        <Image className='z-20 sm:hidden block' src='/player.png' alt='stand' height={500} width={500}/>
+        <Image className='z-20 sm:block hidden' src='/player.png' alt='stand' sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 600px" height={600} width={600} priority/>
+        <Image className='z-20 sm:hidden block' src='/player.png' alt='stand' sizes='(max-width: 640px) 100vw, (max-width: 768px) 50vw, 600px' height={500} width={500} priority/>
     </section>
   )
 }
