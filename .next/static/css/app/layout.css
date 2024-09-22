@@ -1,16 +1,3 @@
-/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[3].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[3].use[2]!./node_modules/next/font/local/target.css?{"path":"app\\layout.tsx","import":"","arguments":[{"src":"./fonts/BebasNeue-Regular.ttf","variable":"--font-bebas","weight":"100 900"}],"variableName":"bebasNeue"} ***!
-  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-@font-face {
-font-family: '__bebasNeue_e84943';
-src: url(/_next/static/media/f8cd6b7d650c1a01-s.p.ttf) format('truetype');
-font-display: swap;
-font-weight: 100 900;
-}@font-face {font-family: '__bebasNeue_Fallback_e84943';src: local("Arial");ascent-override: 116.72%;descent-override: 38.91%;line-gap-override: 0.00%;size-adjust: 77.11%
-}.__className_e84943 {font-family: '__bebasNeue_e84943', '__bebasNeue_Fallback_e84943'
-}.__variable_e84943 {--font-bebas: '__bebasNeue_e84943', '__bebasNeue_Fallback_e84943'
-}
-
 /*!*************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/globals.css ***!
   \*************************************************************************************************************************************************************************************************************************************************************/
@@ -508,6 +495,12 @@ video {
 [hidden] {
   display: none;
 }
+.visible {
+  visibility: visible;
+}
+.\!visible {
+  visibility: visible !important;
+}
 .absolute {
   position: absolute;
 }
@@ -556,6 +549,12 @@ video {
 .top-\[240px\] {
   top: 240px;
 }
+.right-20 {
+  right: 5rem;
+}
+.right-0 {
+  right: 0px;
+}
 .z-20 {
   z-index: 20;
 }
@@ -598,6 +597,9 @@ video {
 }
 .w-full {
   width: 100%;
+}
+.w-\[100px\] {
+  width: 100px;
 }
 .min-w-\[1100px\] {
   min-width: 1100px;
@@ -671,6 +673,16 @@ video {
   border-bottom-right-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
 }
+.border-2 {
+  border-width: 2px;
+}
+.border-b-2 {
+  border-bottom-width: 2px;
+}
+.border-yellow-20 {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 184 28 / var(--tw-border-opacity));
+}
 .bg-purple-20 {
   --tw-bg-opacity: 1;
   background-color: rgb(4 30 66 / var(--tw-bg-opacity));
@@ -678,6 +690,10 @@ video {
 .bg-yellow-20 {
   --tw-bg-opacity: 1;
   background-color: rgb(255 184 28 / var(--tw-bg-opacity));
+}
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 .bg-bg-player-1 {
   background-image: url('/player-1.png');
@@ -731,6 +747,12 @@ video {
 }
 .object-contain {
   object-fit: contain;
+}
+.p-10 {
+  padding: 2.5rem;
+}
+.p-5 {
+  padding: 1.25rem;
 }
 .px-3 {
   padding-left: 0.75rem;
@@ -875,6 +897,11 @@ html {
   scroll-behavior: smooth;
 }
 
+.hover\:border-yellow-20:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 184 28 / var(--tw-border-opacity));
+}
+
 .hover\:underline:hover {
   text-decoration-line: underline;
 }
@@ -1002,3 +1029,16 @@ html {
     line-height: 1.75rem;
   }
 }
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[3].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[3].use[2]!./node_modules/next/font/local/target.css?{"path":"app\\layout.tsx","import":"","arguments":[{"src":"./fonts/BebasNeue-Regular.ttf","variable":"--font-bebas","weight":"100 900"}],"variableName":"bebasNeue"} ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+font-family: '__bebasNeue_e84943';
+src: url(/_next/static/media/f8cd6b7d650c1a01-s.p.ttf) format('truetype');
+font-display: swap;
+font-weight: 100 900;
+}@font-face {font-family: '__bebasNeue_Fallback_e84943';src: local("Arial");ascent-override: 116.72%;descent-override: 38.91%;line-gap-override: 0.00%;size-adjust: 77.11%
+}.__className_e84943 {font-family: '__bebasNeue_e84943', '__bebasNeue_Fallback_e84943'
+}.__variable_e84943 {--font-bebas: '__bebasNeue_e84943', '__bebasNeue_Fallback_e84943'
+}
+

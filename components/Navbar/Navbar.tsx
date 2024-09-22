@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import MobileMenu from '../MobileMenu'
 
 const Navbar = () => {
   return (
@@ -17,9 +18,7 @@ const Navbar = () => {
           <Link className='lg:text-xl text-lg hover:underline transition-all text-white' href="/contact">Contact</Link>
         </div>
 {/*  */}
-        <div className='flex items-center justify-center sm:hidden'>
-          <Image src='/menu.svg' alt='menu' height={40} width={40}/>
-        </div>
+        <MobileMenu/>
         </div>
     </nav>
   )
