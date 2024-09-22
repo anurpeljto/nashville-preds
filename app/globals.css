@@ -28,3 +28,7 @@ body {
     @apply border-2 border-purple-20 bg-purple-20 lg:px-8 lg:py-5 px-2 py-3 text-white rounded-full lg:text-lg
   }
 }
+
+html {
+  scroll-behavior: smooth;
+}

@@ -593,9 +593,6 @@ video {
 .min-h-screen {
   min-height: 100vh;
 }
-.w-\[200px\] {
-  width: 200px;
-}
 .w-\[300px\] {
   width: 300px;
 }
@@ -610,15 +607,6 @@ video {
 }
 .cursor-pointer {
   cursor: pointer;
-}
-.grid-flow-col {
-  grid-auto-flow: column;
-}
-.grid-cols-4 {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-}
-.grid-cols-3 {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -653,11 +641,11 @@ video {
 .gap-2 {
   gap: 0.5rem;
 }
-.gap-5 {
-  gap: 1.25rem;
-}
 .gap-4 {
   gap: 1rem;
+}
+.gap-5 {
+  gap: 1.25rem;
 }
 .space-x-0 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
@@ -712,14 +700,14 @@ video {
 .bg-bg-player-7 {
   background-image: url('/player-7.png');
 }
+.bg-bg-player-8 {
+  background-image: url('/player-8.png');
+}
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
 .bg-gradient-to-t {
   background-image: linear-gradient(to top, var(--tw-gradient-stops));
-}
-.bg-bg-player-8 {
-  background-image: url('/player-8.png');
 }
 .from-white {
   --tw-gradient-from: #fff var(--tw-gradient-from-position);
@@ -767,22 +755,6 @@ video {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
-}
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-.px-20 {
-  padding-left: 5rem;
-  padding-right: 5rem;
-}
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-.py-0 {
-  padding-top: 0px;
-  padding-bottom: 0px;
 }
 .pt-5 {
   padding-top: 1.25rem;
@@ -899,6 +871,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .hover\:underline:hover {
   text-decoration-line: underline;
 }
@@ -930,20 +906,8 @@ body {
     display: none;
   }
 
-  .sm\:grid-cols-4 {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-
-  .sm\:justify-center {
-    justify-content: center;
-  }
-
   .sm\:gap-12 {
     gap: 3rem;
-  }
-
-  .sm\:gap-10 {
-    gap: 2.5rem;
   }
 
   .sm\:py-44 {
@@ -1038,4 +1002,3 @@ body {
     line-height: 1.75rem;
   }
 }
-

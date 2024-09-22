@@ -11,9 +11,9 @@ const Navbar = () => {
         </Link>
 
         <div className='sm:flex hidden flex-row items-center justify lg:gap-12 gap-5 py-5 lg:px-10 px-5 whitespace-nowrap '>
-          <Link className='lg:text-xl text-lg hover:underline transition-all text-white' href="/">Home</Link>
-          <Link className='lg:text-xl text-lg hover:underline transition-all text-white' href="/about">About us</Link>
-          <Link className='lg:text-xl text-lg hover:underline transition-all text-white' href="/team">Our team</Link>
+          <Link className='lg:text-xl text-lg hover:underline transition-all text-white' href="#home">Home</Link>
+          <Link className='lg:text-xl text-lg hover:underline transition-all text-white' href="#about">About us</Link>
+          <Link className='lg:text-xl text-lg hover:underline transition-all text-white' href="#team">Our team</Link>
           <Link className='lg:text-xl text-lg hover:underline transition-all text-white' href="/contact">Contact</Link>
         </div>
 {/*  */}

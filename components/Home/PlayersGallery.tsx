@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const PlayersGallery = () => {
   return (
-    <section className='relative mx-auto w-full overflow-hidden'>
+    <section id='team' className='relative mx-auto w-full overflow-hidden'>
         
         <div className='flex h-full w-full items-start overflow-hidden space-x-0'>
             <Image src='/img-1.webp' alt='Player 1' height={500} width={500} className='opacity-60'/>
