@@ -520,14 +520,41 @@ video {
 .bottom-0 {
   bottom: 0px;
 }
+.bottom-28 {
+  bottom: 7rem;
+}
+.bottom-5 {
+  bottom: 1.25rem;
+}
+.left-0 {
+  left: 0px;
+}
+.left-80 {
+  left: 20rem;
+}
 .left-\[10px\] {
   left: 10px;
+}
+.left-\[500px\] {
+  left: 500px;
 }
 .top-0 {
   top: 0px;
 }
+.top-28 {
+  top: 7rem;
+}
+.top-5 {
+  top: 1.25rem;
+}
 .top-\[-60px\] {
   top: -60px;
+}
+.top-\[230px\] {
+  top: 230px;
+}
+.top-\[240px\] {
+  top: 240px;
 }
 .z-20 {
   z-index: 20;
@@ -548,6 +575,9 @@ video {
 .flex {
   display: flex;
 }
+.grid {
+  display: grid;
+}
 .hidden {
   display: none;
 }
@@ -562,6 +592,9 @@ video {
 }
 .min-h-screen {
   min-height: 100vh;
+}
+.w-\[200px\] {
+  width: 200px;
 }
 .w-\[300px\] {
   width: 300px;
@@ -578,6 +611,18 @@ video {
 .cursor-pointer {
   cursor: pointer;
 }
+.grid-flow-col {
+  grid-auto-flow: column;
+}
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
 .flex-row {
   flex-direction: row;
 }
@@ -593,6 +638,9 @@ video {
 .justify-start {
   justify-content: flex-start;
 }
+.justify-end {
+  justify-content: flex-end;
+}
 .justify-center {
   justify-content: center;
 }
@@ -607,6 +655,9 @@ video {
 }
 .gap-5 {
   gap: 1.25rem;
+}
+.gap-4 {
+  gap: 1rem;
 }
 .space-x-0 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
@@ -625,6 +676,9 @@ video {
 .rounded-lg {
   border-radius: 0.5rem;
 }
+.rounded-md {
+  border-radius: 0.375rem;
+}
 .rounded-b-lg {
   border-bottom-right-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
@@ -637,22 +691,52 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(255 184 28 / var(--tw-bg-opacity));
 }
+.bg-bg-player-1 {
+  background-image: url('/player-1.png');
+}
+.bg-bg-player-2 {
+  background-image: url('/player-2.png');
+}
+.bg-bg-player-3 {
+  background-image: url('/player-3.png');
+}
+.bg-bg-player-4 {
+  background-image: url('/player-4.png');
+}
+.bg-bg-player-5 {
+  background-image: url('/player-5.png');
+}
+.bg-bg-player-6 {
+  background-image: url('/player-6.png');
+}
+.bg-bg-player-7 {
+  background-image: url('/player-7.png');
+}
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
 .bg-gradient-to-t {
   background-image: linear-gradient(to top, var(--tw-gradient-stops));
 }
+.bg-bg-player-8 {
+  background-image: url('/player-8.png');
+}
 .from-white {
   --tw-gradient-from: #fff var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(255 255 255 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+.bg-contain {
+  background-size: contain;
 }
 .bg-cover {
   background-size: cover;
 }
 .bg-center {
   background-position: center;
+}
+.bg-top {
+  background-position: top;
 }
 .bg-no-repeat {
   background-repeat: no-repeat;
@@ -684,6 +768,22 @@ video {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
 }
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.px-20 {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.py-0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
 .pt-5 {
   padding-top: 1.25rem;
 }
@@ -705,6 +805,10 @@ video {
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 .font-bold {
   font-weight: 700;
@@ -826,12 +930,20 @@ body {
     display: none;
   }
 
-  .sm\:w-2\/3 {
-    width: 66.666667%;
+  .sm\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .sm\:justify-center {
+    justify-content: center;
   }
 
   .sm\:gap-12 {
     gap: 3rem;
+  }
+
+  .sm\:gap-10 {
+    gap: 2.5rem;
   }
 
   .sm\:py-44 {
@@ -850,12 +962,20 @@ body {
     display: block;
   }
 
+  .md\:grid {
+    display: grid;
+  }
+
   .md\:w-2\/3 {
     width: 66.666667%;
   }
 
   .md\:w-\[600px\] {
     width: 600px;
+  }
+
+  .md\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .md\:flex-row {

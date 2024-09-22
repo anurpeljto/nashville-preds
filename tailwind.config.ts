@@ -24,6 +24,14 @@ const config: Config = {
       backgroundImage: {
         'bg-img-1': "url('/img-1.webp')",
         'bg-img-2': "url('/img-2.webp')",
+        'bg-player-1': "url('/player-1.png')",
+        'bg-player-2': "url('/player-2.png')",
+        'bg-player-3': "url('/player-3.png')",
+        'bg-player-4': "url('/player-4.png')",
+        'bg-player-5': "url('/player-5.png')",
+        'bg-player-6': "url('/player-6.png')",
+        'bg-player-7': "url('/player-7.png')",
+        'bg-player-8': "url('/player-8.png')"
       }
     },
   },
