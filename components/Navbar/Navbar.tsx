@@ -15,7 +15,7 @@ const Navbar = () => {
           <Link className='lg:text-xl text-lg hover:underline transition-all text-white' href="#home">Home</Link>
           <Link className='lg:text-xl text-lg hover:underline transition-all text-white' href="#about">About us</Link>
           <Link className='lg:text-xl text-lg hover:underline transition-all text-white' href="#team">Our team</Link>
-          <Link className='lg:text-xl text-lg hover:underline transition-all text-white' href="/contact">Contact</Link>
+          <Link className='lg:text-xl text-lg hover:underline transition-all text-white' href="#contact">Contact</Link>
         </div>
 {/*  */}
         <MobileMenu/>

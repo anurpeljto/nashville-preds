@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar/Navbar";
 import localFont from "next/font/local";
+import Contact from "@/components/Contact/Contact";
 
 
 export const metadata: Metadata = {
@@ -25,6 +26,7 @@ export default function RootLayout({
       <body className={`${bebasNeue.variable} antialiased font-[family-name:var(--font-bebas)]`}>
         <Navbar/>
         <main>{children}</main>
+        <Contact/>
       </body>
     </html>
   );
