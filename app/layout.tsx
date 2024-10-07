@@ -23,10 +23,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <GoogleAnalytics strategy="lazyOnload" trackPageViews/>
       <body className={`${bebasNeue.variable} antialiased font-[family-name:var(--font-bebas)]`}>
         <Navbar/>
         <main>{children}</main>
-        <GoogleAnalytics trackPageViews/>
         <Contact/>
       </body>
     </html>
