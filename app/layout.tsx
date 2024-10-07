@@ -3,7 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar/Navbar";
 import localFont from "next/font/local";
 import Contact from "@/components/Contact/Contact";
-import { GoogleTagManager } from "@next/third-parties/google";
+import { GoogleAnalytics } from "nextjs-google-analytics";
 
 export const metadata: Metadata = {
   title: "Nashville Predators",
@@ -26,7 +26,7 @@ export default function RootLayout({
       <body className={`${bebasNeue.variable} antialiased font-[family-name:var(--font-bebas)]`}>
         <Navbar/>
         <main>{children}</main>
-        <GoogleTagManager gtmId="G-0T6Z430KYQ"/>
+        <GoogleAnalytics trackPageViews/>
         <Contact/>
       </body>
     </html>
