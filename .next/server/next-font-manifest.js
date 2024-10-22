@@ -1,1 +1,1 @@
-self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{},\"appUsingSizeAdjust\":false,\"pagesUsingSizeAdjust\":false}"
+self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/anurpeljto/repos/nashville-preds/app/layout\":[\"static/media/f8cd6b7d650c1a01-s.p.ttf\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
