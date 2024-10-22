@@ -651,7 +651,11 @@ video {
 }
 .gap-5 {
   gap: 1.25rem;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 1b018779e1811538dae06833596dab155a76aada
 .space-x-0 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(0px * var(--tw-space-x-reverse));
@@ -746,6 +750,7 @@ video {
 }
 .p-5 {
   padding: 1.25rem;
+<<<<<<< HEAD
 }
 .px-2 {
   padding-left: 0.5rem;
@@ -775,6 +780,37 @@ video {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
 }
+=======
+}
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+>>>>>>> 1b018779e1811538dae06833596dab155a76aada
 .pt-5 {
   padding-top: 1.25rem;
 }
@@ -804,7 +840,11 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 1b018779e1811538dae06833596dab155a76aada
 .font-bold {
   font-weight: 700;
 }
@@ -828,7 +868,11 @@ video {
 .text-yellow-20 {
   --tw-text-opacity: 1;
   color: rgb(255 184 28 / var(--tw-text-opacity));
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 1b018779e1811538dae06833596dab155a76aada
 .underline {
   text-decoration-line: underline;
 }
@@ -1046,9 +1090,15 @@ html {
     line-height: 1.75rem;
   }
 }
+<<<<<<< HEAD
 /*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[3].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[14].oneOf[3].use[2]!./node_modules/next/font/local/target.css?{"path":"app/layout.tsx","import":"","arguments":[{"src":"./fonts/BebasNeue-Regular.ttf","variable":"--font-bebas","weight":"100 900"}],"variableName":"bebasNeue"} ***!
   \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+=======
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[3].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[14].oneOf[3].use[2]!./node_modules/next/font/local/target.css?{"path":"app\\layout.tsx","import":"","arguments":[{"src":"./fonts/BebasNeue-Regular.ttf","variable":"--font-bebas","weight":"100 900"}],"variableName":"bebasNeue"} ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+>>>>>>> 1b018779e1811538dae06833596dab155a76aada
 @font-face {
 font-family: '__bebasNeue_e84943';
 src: url(/_next/static/media/f8cd6b7d650c1a01-s.p.ttf) format('truetype');

@@ -3,7 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar/Navbar";
 import localFont from "next/font/local";
 import Contact from "@/components/Contact/Contact";
-import { GoogleTagManager } from "@next/third-parties/google";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "Nashville Predators",
@@ -23,10 +23,26 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+      <Script
+        strategy='lazyOnload'
+        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_MEASUREMENT_ID}`}
+      />
+
+      <Script id='' strategy='lazyOnload'>
+        {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', '${process.env.NEXT_PUBLIC_MEASUREMENT_ID}', {
+              page_path: window.location.pathname,
+              });
+          `}
+      </Script>
+      </head>
       <body className={`${bebasNeue.variable} antialiased font-[family-name:var(--font-bebas)]`}>
         <Navbar/>
         <main>{children}</main>
-        <GoogleTagManager gtmId="G-0T6Z430KYQ"/>
         <Contact/>
       </body>
     </html>
